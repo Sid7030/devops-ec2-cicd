@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return """
     <h1>Hello DevOps!</h1>
-    <h2>AWS DevOps CI/CD Pipeline Project</h2>
+    <p>Application deployed successfully using CI/CD.</p>
     <p>GitHub → Jenkins → Docker → Docker Hub → AWS EC2</p>
     """
 
